@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.10)  25 SEP 2024 07:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.10)  26 SEP 2024 00:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -826,7 +826,23 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count340
 \l__pdf_internal_box=\box76
 )
-(./my_answers_RJ.C.aux)
+(./my_answers_RJ.C.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+)
 \openout1 = `my_answers_RJ.C.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
@@ -847,8 +863,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
 LaTeX Font Info:    ... okay on input line 67.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
 LaTeX Font Info:    ... okay on input line 67.
-
-(d:/TEXlive/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (d:/TEXlive/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count341
 \scratchdimen=\dimen310
@@ -991,22 +1006,95 @@ Package pdftex.def Info: plot.Y.X1_RJ.C.pdf  used on input line 156.
 <plot.symbols.colors_RJ.C.pdf, id=145, 515.9275pt x 311.1625pt>
 File: plot.symbols.colors_RJ.C.pdf Graphic file (type pdf)
 <use plot.symbols.colors_RJ.C.pdf>
-Package pdftex.def Info: plot.symbols.colors_RJ.C.pdf  used on input line 196.
+Package pdftex.def Info: plot.symbols.colors_RJ.C.pdf  used on input line 194.
 (pdftex.def)             Requested size: 399.29463pt x 240.82558pt.
- [6] [7 <./plot.symbols.colors_RJ.C.pdf>]
-(./my_answers_RJ.C.aux)
+ [6] (./my_answersRJ.C.R)
+<plot.Y.X2_RJ.C.pdf, id=175, 515.9275pt x 311.1625pt>
+File: plot.Y.X2_RJ.C.pdf Graphic file (type pdf)
+<use plot.Y.X2_RJ.C.pdf>
+Package pdftex.def Info: plot.Y.X2_RJ.C.pdf  used on input line 201.
+(pdftex.def)             Requested size: 399.29463pt x 240.82558pt.
+ [7 <./plot.symbols.colors_RJ.C.pdf>] (./my_answersRJ.C.R) (./my_answersRJ.C.R)
+<plot.symbols.colors2_RJ.C.pdf, id=195, 515.9275pt x 311.1625pt>
+File: plot.symbols.colors2_RJ.C.pdf Graphic file (type pdf)
+<use plot.symbols.colors2_RJ.C.pdf>
+Package pdftex.def Info: plot.symbols.colors2_RJ.C.pdf  used on input line 234.
+
+(pdftex.def)             Requested size: 399.29463pt x 240.82558pt.
+ [8 <./plot.Y.X2_RJ.C.pdf>]
+(./my_answersRJ.C.R [9 <./plot.symbols.colors2_RJ.C.pdf>])
+<plot.Y.X3_RJ.C.pdf, id=245, 515.9275pt x 311.1625pt>
+File: plot.Y.X3_RJ.C.pdf Graphic file (type pdf)
+<use plot.Y.X3_RJ.C.pdf>
+Package pdftex.def Info: plot.Y.X3_RJ.C.pdf  used on input line 241.
+(pdftex.def)             Requested size: 399.29463pt x 240.82558pt.
+ (./my_answersRJ.C.R) (./my_answersRJ.C.R)
+<plot.symbols.colors3_RJ.C.pdf, id=246, 515.9275pt x 311.1625pt>
+File: plot.symbols.colors3_RJ.C.pdf Graphic file (type pdf)
+<use plot.symbols.colors3_RJ.C.pdf>
+Package pdftex.def Info: plot.symbols.colors3_RJ.C.pdf  used on input line 274.
+
+(pdftex.def)             Requested size: 399.29463pt x 240.82558pt.
+ [10 <./plot.Y.X3_RJ.C.pdf>] (./my_answersRJ.C.R [11 <./plot.symbols.colors3_RJ
+.C.pdf>])
+<plot.X1.X2_RJ.C.pdf, id=298, 515.9275pt x 311.1625pt>
+File: plot.X1.X2_RJ.C.pdf Graphic file (type pdf)
+<use plot.X1.X2_RJ.C.pdf>
+Package pdftex.def Info: plot.X1.X2_RJ.C.pdf  used on input line 281.
+(pdftex.def)             Requested size: 399.29463pt x 240.82558pt.
+ (./my_answersRJ.C.R) (./my_answersRJ.C.R
+[12 <./plot.X1.X2_RJ.C.pdf>])
+<plot.symbols.colors4_RJ.C.pdf, id=331, 515.9275pt x 311.1625pt>
+File: plot.symbols.colors4_RJ.C.pdf Graphic file (type pdf)
+<use plot.symbols.colors4_RJ.C.pdf>
+Package pdftex.def Info: plot.symbols.colors4_RJ.C.pdf  used on input line 314.
+
+(pdftex.def)             Requested size: 399.29463pt x 240.82558pt.
+ (./my_answersRJ.C.R [13 <./plot.symbols.colors4_RJ.C.pdf>])
+<plot.X1.X3_RJ.C.pdf, id=349, 515.9275pt x 311.1625pt>
+File: plot.X1.X3_RJ.C.pdf Graphic file (type pdf)
+<use plot.X1.X3_RJ.C.pdf>
+Package pdftex.def Info: plot.X1.X3_RJ.C.pdf  used on input line 321.
+(pdftex.def)             Requested size: 399.29463pt x 240.82558pt.
+ (./my_answersRJ.C.R) (./my_answersRJ.C.R [14 <./plot.X1.X3_RJ.C.pdf>])
+<plot.symbols.colors5_RJ.C.pdf, id=383, 515.9275pt x 311.1625pt>
+File: plot.symbols.colors5_RJ.C.pdf Graphic file (type pdf)
+<use plot.symbols.colors5_RJ.C.pdf>
+Package pdftex.def Info: plot.symbols.colors5_RJ.C.pdf  used on input line 354.
+
+(pdftex.def)             Requested size: 399.29463pt x 240.82558pt.
+ [15] (./my_answersRJ.C.R)
+<plot.X2.X3_RJ.C.pdf, id=395, 515.9275pt x 311.1625pt>
+File: plot.X2.X3_RJ.C.pdf Graphic file (type pdf)
+<use plot.X2.X3_RJ.C.pdf>
+Package pdftex.def Info: plot.X2.X3_RJ.C.pdf  used on input line 361.
+(pdftex.def)             Requested size: 399.29463pt x 240.82558pt.
+ [16 <./plot.symbols.colors5_RJ.C.pdf>]
+(./my_answersRJ.C.R) (./my_answersRJ.C.R)
+<plot.symbols.colors6_RJ.C.pdf, id=414, 515.9275pt x 311.1625pt>
+File: plot.symbols.colors6_RJ.C.pdf Graphic file (type pdf)
+<use plot.symbols.colors6_RJ.C.pdf>
+Package pdftex.def Info: plot.symbols.colors6_RJ.C.pdf  used on input line 394.
+
+(pdftex.def)             Requested size: 399.29463pt x 240.82558pt.
+ [17 <./plot.X2.X3_RJ.C.pdf>] [18 <./plot.symbols.colors6_RJ.C.pdf>] (./my_answ
+ers_RJ.C.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `my_answers_RJ.C.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27377 strings out of 474116
- 476785 string characters out of 5743693
+ 27655 strings out of 474116
+ 482205 string characters out of 5743693
  2254190 words of memory out of 5000000
- 49112 multiletter control sequences out of 15000+600000
+ 49184 multiletter control sequences out of 15000+600000
  568855 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,10n,93p,3247b,2142s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1024,10 +1112,10 @@ ive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><d:/TEXlive/texli
 ve/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><d:/TEXlive/texliv
 e/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><d:/TEXlive/texlive/
 2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on my_answers_RJ.C.pdf (7 pages, 204515 bytes).
+Output written on my_answers_RJ.C.pdf (18 pages, 303802 bytes).
 PDF statistics:
- 273 PDF objects out of 1000 (max. 8388607)
- 227 compressed objects within 3 object streams
- 123 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 582 PDF objects out of 1000 (max. 8388607)
+ 502 compressed objects within 6 object streams
+ 299 named destinations out of 1000 (max. 500000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
