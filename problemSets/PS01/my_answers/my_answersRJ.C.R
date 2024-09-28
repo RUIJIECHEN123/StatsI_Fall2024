@@ -315,3 +315,4 @@ ggplot(expenditure, aes(x = X3, y = X2, color = Region, shape = Region)) +
 pdf("plot.symbols.colors6_RJ.C.pdf")
 plot(expenditure$X3,expenditure$X1)
 dev.off()   #Complete the third question(X2/X3) of the third question
+#my_answers_RUIJIE CHEN_24334620
