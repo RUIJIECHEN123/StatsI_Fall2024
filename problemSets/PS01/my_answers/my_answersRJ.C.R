@@ -144,7 +144,7 @@ ggplot(expenditure, aes(x = X1, y = Y)) +
   labs(title = "Scatterplot of Y vs. X1", x = "X1", y = "Y")  #Draw a point of Y and X1
 pdf("plot.Y.X1_RJ.C.pdf")
 plot(expenditure$X1,expenditure$Y)
-dev.off()  #Complete the first question(Y/X1) of the third question    
+dev.off()  #Complete the first question(Y/X1)     
 expenditure <- read.table("https://raw.githubusercontent.com/ASDS-TCD/StatsI_Fall2024/main/datasets/expenditure.txt", header=T)
 regression_model <- lm(Y ~ X1, data=expenditure)
 summary(regression_model)
@@ -152,7 +152,7 @@ output_stargazer <- function(outputFile, model) {
   output <- capture.output(stargazer(model, type = "text"))
   writeLines(output, con = outputFile)
 }
-output_stargazer("regression_output_RJ.C.tex", regression_model) #This will write the output of stargazer to the 'regression_output_RJ.C.tex' file #Complete the second question(Y/X1) of the third question
+output_stargazer("regression_output_RJ.C.tex", regression_model) #This will write the output of stargazer to the 'regression_output_RJ.C.tex' file #Complete the second question(Y/X1) 
 library(ggplot2)
 expenditure <- read.table("https://raw.githubusercontent.com/ASDS-TCD/StatsI_Fall2024/main/datasets/expenditure.txt", header=T)
 expenditure$Region <- as.factor(expenditure$Region)
@@ -164,7 +164,7 @@ ggplot(expenditure, aes(x = X1, y = Y, color = Region, shape = Region)) +
   scale_shape_manual(values = c(18, 23, 10, 17, 2))
 pdf("plot.symbols.colors_RJ.C.pdf")
 plot(expenditure$X1,expenditure$Y)
-dev.off()   #Complete the third question(Y/X1) of the third question  
+dev.off()   #Complete the third question(Y/X1)   
 
 library(ggplot2)
 expenditure <- read.table("https://raw.githubusercontent.com/ASDS-TCD/StatsI_Fall2024/main/datasets/expenditure.txt", header=T)
@@ -173,7 +173,7 @@ ggplot(expenditure, aes(x = X2, y = Y)) +
   labs(title = "Scatterplot of Y vs. X2", x = "X2", y = "Y")  #Draw a point of Y and X2
 pdf("plot.Y.X2_RJ.C.pdf")
 plot(expenditure$X2,expenditure$Y)
-dev.off()  #Complete the first question(Y/X2) of the third question   
+dev.off()  #Complete the first question(Y/X2)    
 expenditure <- read.table("https://raw.githubusercontent.com/ASDS-TCD/StatsI_Fall2024/main/datasets/expenditure.txt", header=T)
 regression_model <- lm(Y ~ X2, data=expenditure)
 summary(regression_model)
@@ -182,19 +182,7 @@ output_stargazer <- function(outputFile, model) {
   writeLines(output, con = outputFile)
 }
 library(stargazer)
-output_stargazer("regression_output2_RJ.C.tex", regression_model) #Complete the second question(Y/X2) of the third question
-library(ggplot2)
-expenditure <- read.table("https://raw.githubusercontent.com/ASDS-TCD/StatsI_Fall2024/main/datasets/expenditure.txt", header=T)
-expenditure$Region <- as.factor(expenditure$Region)
-ggplot(expenditure, aes(x = X2, y = Y, color = Region, shape = Region)) +
-  geom_point() +
-  labs(title = "Scatterplot of Y vs. X2 by Region", x = "X2", y = "Y") +
-  theme_minimal() +
-  scale_color_manual(values = c("dimgray", "gold", "red", "blue", "coral")) +
-  scale_shape_manual(values = c(18, 23, 10, 17, 2))
-pdf("plot.symbols.colors2_RJ.C.pdf")
-plot(expenditure$X2,expenditure$Y)
-dev.off()   #Complete the third question(Y/X2) of the third question 
+output_stargazer("regression_output2_RJ.C.tex", regression_model) #Complete the second question(Y/X2) 
 
 library(ggplot2)
 expenditure <- read.table("https://raw.githubusercontent.com/ASDS-TCD/StatsI_Fall2024/main/datasets/expenditure.txt", header=T)
@@ -203,7 +191,7 @@ ggplot(expenditure, aes(x = X3, y = Y)) +
   labs(title = "Scatterplot of Y vs. X3", x = "X3", y = "Y")  #Draw a point of Y and X3
 pdf("plot.Y.X3_RJ.C.pdf")
 plot(expenditure$X3,expenditure$Y)
-dev.off()  #Complete the first question(Y/X3) of the third question
+dev.off()  #Complete the first question(Y/X3) 
 expenditure <- read.table("https://raw.githubusercontent.com/ASDS-TCD/StatsI_Fall2024/main/datasets/expenditure.txt", header=T)
 regression_model <- lm(Y ~ X3, data=expenditure)
 summary(regression_model)
@@ -212,19 +200,7 @@ output_stargazer <- function(outputFile, model) {
   writeLines(output, con = outputFile)
 }
 library(stargazer)
-output_stargazer("regression_output3_RJ.C.tex", regression_model) #Complete the second question(Y/X3) of the third question
-library(ggplot2)
-expenditure <- read.table("https://raw.githubusercontent.com/ASDS-TCD/StatsI_Fall2024/main/datasets/expenditure.txt", header=T)
-expenditure$Region <- as.factor(expenditure$Region)
-ggplot(expenditure, aes(x = X3, y = Y, color = Region, shape = Region)) +
-  geom_point() +
-  labs(title = "Scatterplot of Y vs. X3 by Region", x = "X3", y = "Y") +
-  theme_minimal() +
-  scale_color_manual(values = c("dimgray", "gold", "red", "blue", "coral")) +
-  scale_shape_manual(values = c(18, 23, 10, 17, 2))
-pdf("plot.symbols.colors3_RJ.C.pdf")
-plot(expenditure$X3,expenditure$Y)
-dev.off()   #Complete the third question(Y/X3) of the third question
+output_stargazer("regression_output3_RJ.C.tex", regression_model) #Complete the second question(Y/X3) 
 
 library(ggplot2)
 expenditure <- read.table("https://raw.githubusercontent.com/ASDS-TCD/StatsI_Fall2024/main/datasets/expenditure.txt", header=T)
@@ -233,7 +209,7 @@ ggplot(expenditure, aes(x = X2, y = X1)) +
   labs(title = "Scatterplot of X1 vs. X2", x = "X2", y = "X1")  #Draw a point of X1 and X2
 pdf("plot.X1.X2_RJ.C.pdf")
 plot(expenditure$X2,expenditure$X1)
-dev.off()#Complete the first question(X1/X2) of the third question
+dev.off()#Complete the first question(X1/X2) 
 expenditure <- read.table("https://raw.githubusercontent.com/ASDS-TCD/StatsI_Fall2024/main/datasets/expenditure.txt", header=T)
 regression_model <- lm(X1 ~ X2, data=expenditure)
 summary(regression_model)
@@ -242,19 +218,8 @@ output_stargazer <- function(outputFile, model) {
   writeLines(output, con = outputFile)
 }
 library(stargazer)
-output_stargazer("regression_output4_RJ.C.tex", regression_model) #Complete the second question(X1/X2) of the third question
-library(ggplot2)
-expenditure <- read.table("https://raw.githubusercontent.com/ASDS-TCD/StatsI_Fall2024/main/datasets/expenditure.txt", header=T)
-expenditure$Region <- as.factor(expenditure$Region)
-ggplot(expenditure, aes(x = X2, y = X1, color = Region, shape = Region)) +
-  geom_point() +
-  labs(title = "Scatterplot of X1 vs. X2 by Region", x = "X2", y = "X1") +
-  theme_minimal() +
-  scale_color_manual(values = c("dimgray", "gold", "red", "blue", "coral")) +
-  scale_shape_manual(values = c(18, 23, 10, 17, 2))
-pdf("plot.symbols.colors4_RJ.C.pdf")
-plot(expenditure$X2,expenditure$X1)
-dev.off()   #Complete the third question(X1/X2) of the third question
+output_stargazer("regression_output4_RJ.C.tex", regression_model) #Complete the second question(X1/X2) 
+
 
 library(ggplot2)
 expenditure <- read.table("https://raw.githubusercontent.com/ASDS-TCD/StatsI_Fall2024/main/datasets/expenditure.txt", header=T)
@@ -263,7 +228,7 @@ ggplot(expenditure, aes(x = X3, y = X1)) +
   labs(title = "Scatterplot of X1 vs. X3", x = "X3", y = "X1")  #Draw a point of X1 and X3
 pdf("plot.X1.X3_RJ.C.pdf")
 plot(expenditure$X3,expenditure$X1)
-dev.off()#Complete the first question(X1/X3) of the third question
+dev.off()#Complete the first question(X1/X3) 
 expenditure <- read.table("https://raw.githubusercontent.com/ASDS-TCD/StatsI_Fall2024/main/datasets/expenditure.txt", header=T)
 regression_model <- lm(X1 ~ X3, data=expenditure)
 summary(regression_model)
@@ -272,19 +237,7 @@ output_stargazer <- function(outputFile, model) {
   writeLines(output, con = outputFile)
 }
 library(stargazer)
-output_stargazer("regression_output5_RJ.C.tex", regression_model) #Complete the second question(X1/X3) of the third question
-library(ggplot2)
-expenditure <- read.table("https://raw.githubusercontent.com/ASDS-TCD/StatsI_Fall2024/main/datasets/expenditure.txt", header=T)
-expenditure$Region <- as.factor(expenditure$Region)
-ggplot(expenditure, aes(x = X3, y = X1, color = Region, shape = Region)) +
-  geom_point() +
-  labs(title = "Scatterplot of X1 vs. X3 by Region", x = "X3", y = "X1") +
-  theme_minimal() +
-  scale_color_manual(values = c("dimgray", "gold", "red", "blue", "coral")) +
-  scale_shape_manual(values = c(18, 23, 10, 17, 2))
-pdf("plot.symbols.colors5_RJ.C.pdf")
-plot(expenditure$X3,expenditure$X1)
-dev.off()   #Complete the third question(X1/X3) of the third question
+output_stargazer("regression_output5_RJ.C.tex", regression_model) #Complete the second question(X1/X3) 
 
 library(ggplot2)
 expenditure <- read.table("https://raw.githubusercontent.com/ASDS-TCD/StatsI_Fall2024/main/datasets/expenditure.txt", header=T)
@@ -293,7 +246,7 @@ ggplot(expenditure, aes(x = X3, y = X2)) +
   labs(title = "Scatterplot of X2 vs. X3", x = "X3", y = "X2")  #Draw a point of X2 and X3
 pdf("plot.X2.X3_RJ.C.pdf")
 plot(expenditure$X3,expenditure$X2)
-dev.off()#Complete the first question(X2/X3) of the third question
+dev.off()#Complete the first question(X2/X3) 
 expenditure <- read.table("https://raw.githubusercontent.com/ASDS-TCD/StatsI_Fall2024/main/datasets/expenditure.txt", header=T)
 regression_model <- lm(X2 ~ X3, data=expenditure)
 summary(regression_model)
@@ -302,17 +255,4 @@ output_stargazer <- function(outputFile, model) {
   writeLines(output, con = outputFile)
 }
 library(stargazer)
-output_stargazer("regression_output6_RJ.C.tex", regression_model) #Complete the second question(X2/X3) of the third question
-library(ggplot2)
-expenditure <- read.table("https://raw.githubusercontent.com/ASDS-TCD/StatsI_Fall2024/main/datasets/expenditure.txt", header=T)
-expenditure$Region <- as.factor(expenditure$Region)
-ggplot(expenditure, aes(x = X3, y = X2, color = Region, shape = Region)) +
-  geom_point() +
-  labs(title = "Scatterplot of X2 vs. X3 by Region", x = "X3", y = "X2") +
-  theme_minimal() +
-  scale_color_manual(values = c("dimgray", "gold", "red", "blue", "coral")) +
-  scale_shape_manual(values = c(18, 23, 10, 17, 2))
-pdf("plot.symbols.colors6_RJ.C.pdf")
-plot(expenditure$X3,expenditure$X1)
-dev.off()   #Complete the third question(X2/X3) of the third question
-#my_answers_RUIJIE CHEN_24334620
+output_stargazer("regression_output6_RJ.C.tex", regression_model) #Complete the second question(X2/X3) 

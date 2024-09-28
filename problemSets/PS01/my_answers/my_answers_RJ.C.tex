@@ -88,7 +88,9 @@ A school counselor was curious about the average of IQ of the students in her sc
 \begin{enumerate}
 	\item Find a 90\% confidence interval for the average student IQ in the school.\\
 	\lstinputlisting[language=R, firstline=47, lastline=54]{my_answersRJ.C.R}
-	
+	\begin{verbatim}
+		Confidence interval (93.95993 102.92007) mean value(98.44000)
+	\end{verbatim} 
 	\item Next, the school counselor was curious  whether  the average student IQ in her school is higher than the average IQ score (100) among all the schools in the country.\\ 
 	\noindent Using the same sample, conduct the appropriate hypothesis test with $\alpha=0.05$.
 
@@ -127,12 +129,6 @@ Please plot the relationships among \emph{Y}, \emph{X1}, \emph{X2}, and \emph{X3
 	\item[]
 	\includegraphics[width=.85\textwidth]{plot.all relationship_RJ.C.pdf}
    \end{enumerate}
-   \begin{verbatim}
-   	Y is positively correlated with X1, X2, X3
-   	X1 is negatively correlated with X2
-   	X1 is positively correlated with X3
-   	The relationship between X2 and X3 is weak
-   \end{verbatim}
 \lstinputlisting[language=R, firstline=119, lastline=119]{my_answersRJ.C.R}
 	\begin{verbatim}
 	  STATE                 Y                X1             X2              X3       
@@ -143,7 +139,305 @@ Please plot the relationships among \emph{Y}, \emph{X1}, \emph{X2}, and \emph{X3
 	                   3rd Qu.: 90.00   3rd Qu.:2096   3rd Qu.:391.8   3rd Qu.:661.2  
 	                   Max.   :129.00   Max.   :2817   Max.   :531.0   Max.   :899.0 
   \end{verbatim} 
-\vspace{.5cm}
+\lstinputlisting[language=R, firstline=145, lastline=147]{my_answersRJ.C.R}
+  \begin{enumerate}
+  	\item[]
+  	\includegraphics[width=.80\textwidth]{plot.Y.X1_RJ.C.pdf}
+  \end{enumerate}
+  \begin{verbatim}
+  	Y is positively correlated with x1,
+  	 indicating that as personal income increases, 
+  	 per capita housing expenditure also increases
+  \end{verbatim} 
+\lstinputlisting[language=R, firstline=155, lastline=155]{my_answersRJ.C.R}
+  %  \begin{table}[htbp]
+  %		\centering
+  %		\caption{}  
+  %	    \label{}
+  %		\input{regression_output_RJ.C.tex}
+  %	  \end{table}
+  %  problem:The format in the file is correct, but when imported into LaTeX, the format changes
+  \begin{table}[!htbp] \centering 
+  	\caption{} 
+  	\label{} 
+  	\begin{tabular}{@{\extracolsep{5pt}}lc} 
+  		\\[-2.8ex]\hline 
+  		\hline \\[-2.8ex] 
+  		& \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+  		\cline{2-2} 
+  		\\[-2.8ex] & Y \\ 
+  		\hline \\[-2.8ex] 
+  		X1 & 0.025$^{***}$ \\ 
+  		& (0.006) \\ 
+  		& \\ 
+  		Constant & 32.546$^{***}$ \\ 
+  		& (11.034) \\ 
+  		& \\ 
+  		\hline \\[-2.8ex] 
+  		Observations & 50 \\ 
+  		R$^{2}$ & 0.283 \\ 
+  		Adjusted R$^{2}$ & 0.268 \\ 
+  		Residual Std. Error & 15.836 (df = 48) \\ 
+  		F Statistic & 18.920$^{***}$ (df = 1; 48) \\ 
+  		\hline 
+  		\hline \\[-2.8ex] 
+  		\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+  	\end{tabular} 
+  \end{table} 
+\vspace{2.5cm} 
+\begin{verbatim}
+	The coefficient of X1 is 0.025 and has statistical significance (p-value<0.01), 
+	indicating a positive correlation between X1 and Y. 
+	Specifically, for every unit increase in X1, Y is expected to increase by 0.025 units; 
+	The constant term is 32.546 and has statistical significance (p-value<0.01). 
+	This means that when X1 is zero, the expected value of Y is 32.546; 
+	The adjusted R-squared is 0.268, slightly lower than R-squared,
+	indicating that there are other factors affecting housing expenditure;
+	as per capita income (X1) increases, housing expenditure (Y) will also increase
+\end{verbatim}
+  %Y与X1
+\vspace{5.5cm}
+\lstinputlisting[language=R, firstline=174, lastline=176]{my_answersRJ.C.R}
+\begin{enumerate}
+	\item[]
+	\includegraphics[width=.80\textwidth]{plot.Y.X2_RJ.C.pdf}
+\end{enumerate}
+\begin{verbatim}
+	There is a positive correlation between y and x2, 
+	indicating that in continents with more economically unstable residents,
+	per capita housing expenditures will increase
+\end{verbatim}
+\lstinputlisting[language=R, firstline=185, lastline=185]{my_answersRJ.C.R}
+\begin{table}[!htbp] \centering 
+	\caption{} 
+	\label{} 
+	\begin{tabular}{@{\extracolsep{5pt}}lc} 
+		\\[-2.8ex]\hline 
+		\hline \\[-2.8ex] 
+		& \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+		\cline{2-2} 
+		\\[-2.8ex] & Y \\ 
+		\hline \\[-2.8ex] 
+		X2 & 0.070$^{***}$ \\ 
+		& (0.020) \\ 
+		& \\ 
+		Constant & 57.761$^{***}$ \\ 
+		& (6.164) \\ 
+		& \\ 
+		\hline \\[-2.8ex] 
+		Observations & 50 \\ 
+		R$^{2}$ & 0.201 \\ 
+		Adjusted R$^{2}$ & 0.184 \\ 
+		Residual Std. Error & 16.714 (df = 48) \\ 
+		F Statistic & 12.072$^{***}$ (df = 1; 48) \\ 
+		\hline 
+		\hline \\[-2.8ex] 
+		\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+	\end{tabular} 
+\end{table}  
+\begin{verbatim}
+	The coefficient of X2 is 0.070 and has statistical significance (p-value<0.01), 
+	indicating a positive correlation between X2 and Y; 
+	The R-squared value is 0.201, indicating that X2 can explain 20.1% of Y variability 
+	and suggesting that there are other factors affecting Y
+\end{verbatim}
+%Y与X2
+
+\lstinputlisting[language=R, firstline=192, lastline=194]{my_answersRJ.C.R}
+\begin{enumerate}
+	\item[]
+	\includegraphics[width=.75\textwidth]{plot.Y.X3_RJ.C.pdf}
+\end{enumerate}
+\begin{verbatim}
+	There is a positive correlation between y and x3, 
+	indicating that in continents with higher urbanization, 
+	per capita housing expenditures will also increase
+\end{verbatim}
+\lstinputlisting[language=R, firstline=203, lastline=203]{my_answersRJ.C.R}
+\begin{table}[!htbp] \centering 
+	\caption{} 
+	\label{} 
+	\begin{tabular}{@{\extracolsep{5pt}}lc} 
+		\\[-2.8ex]\hline 
+		\hline \\[-1.8ex] 
+		& \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+		\cline{2-2} 
+		\\[-2.8ex] & Y \\ 
+		\hline \\[-2.8ex] 
+		X3 & 0.059$^{***}$ \\ 
+		& (0.016) \\ 
+		& \\ 
+		Constant & 43.306$^{***}$ \\ 
+		& (9.461) \\ 
+		& \\ 
+		\hline \\[-2.8ex] 
+		Observations & 50 \\ 
+		R$^{2}$ & 0.215 \\ 
+		Adjusted R$^{2}$ & 0.199 \\ 
+		Residual Std. Error & 16.567 (df = 48) \\ 
+		F Statistic & 13.1146$^{***}$ (df = 1; 48) \\ 
+		\hline 
+		\hline \\[-2.8ex] 
+		\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+	\end{tabular}
+\end{table}     
+\begin{verbatim}
+The coefficient of X3 is 0.059 and has statistical significance (p-value<0.01), 
+indicating a positive correlation between X3 and Y; 
+The R-squared value is 0.215, indicating that X3 can explain 21.5% of Y variability. 
+This is a relatively low value, 
+indicating that there are other factors affecting Y
+\end{verbatim}
+%Y与X3
+\vspace{10.5cm} 
+\lstinputlisting[language=R, firstline=210, lastline=212]{my_answersRJ.C.R}
+\begin{enumerate}
+	\item[]
+	\includegraphics[width=.75\textwidth]{plot.X1.X2_RJ.C.pdf}
+\end{enumerate}
+\begin{verbatim} 
+	There is a negative correlation between x1 and x2. 
+	Continents with high per capita income 
+	fewer residents with unstable economies
+\end{verbatim}
+\lstinputlisting[language=R, firstline=221, lastline=221]{my_answersRJ.C.R}
+\begin{table}[!htbp] \centering 
+	\caption{} 
+	\label{} 
+	\begin{tabular}{@{\extracolsep{5pt}}lc} 
+		\\[-2.8ex]\hline 
+		\hline \\[-1.8ex] 
+		& \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+		\cline{2-2} 
+		\\[-2.8ex] & X1 \\ 
+		\hline \\[-2.8ex] 
+		X2 & 0.696$^{***}$ \\ 
+		& (0.478) \\ 
+		& \\ 
+		Constant & 1715.655$^{***}$ \\ 
+		& (145.981) \\ 
+		& \\ 
+		\hline \\[-2.8ex] 
+		Observations & 50 \\ 
+		R$^{2}$ & 0.042 \\ 
+		Adjusted R$^{2}$ & 0.022 \\ 
+		Residual Std. Error & 395.854 (df = 48) \\ 
+		F Statistic & 2.119$^{***}$ (df = 1; 48) \\ 
+		\hline 
+		\hline \\[-2.8ex] 
+		\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+	\end{tabular} 
+\end{table}  
+\begin{verbatim} 
+The coefficient of X2 is 0.696, 
+but this coefficient is not statistically significant (p-value>0.1),
+which means there is not enough evidence to 
+conclude a significant linear relationship between X2 and X1; 
+The R-squared value is 0.042, indicating that X2 can explain 4.2% of X1's variability. 
+This is a very low value, indicating a very weak relationship between X2 and X1
+\end{verbatim}
+%X1与X2
+\vspace{10.5cm} 
+\lstinputlisting[language=R, firstline=229, lastline=231]{my_answersRJ.C.R}
+\begin{enumerate}
+	\item[]
+	\includegraphics[width=.75\textwidth]{plot.X1.X3_RJ.C.pdf}
+\end{enumerate}
+\begin{verbatim} 
+	There is a positive correlation between x1 and x3, 
+	the higher the urbanization of the continent, 
+	the higher the per capita income
+\end{verbatim}
+\lstinputlisting[language=R, firstline=240, lastline=240]{my_answersRJ.C.R}
+\begin{table}[!htbp] \centering 
+	\caption{} 
+	\label{} 
+	\begin{tabular}{@{\extracolsep{5pt}}lc} 
+		\\[-2.8ex]\hline 
+		\hline \\[-1.8ex] 
+		& \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+		\cline{2-2} 
+		\\[-2.8ex] & X1 \\ 
+		\hline \\[-2.8ex] 
+		X3 & 1.643$^{***}$ \\ 
+		& (0.320) \\ 
+		& \\ 
+		Constant & 988.947$^{***}$ \\ 
+		& (185.614) \\ 
+		& \\ 
+		\hline \\[-2.8ex] 
+		Observations & 50 \\ 
+		R$^{2}$ & 0.354 \\ 
+		Adjusted R$^{2}$ & 0.341 \\ 
+		Residual Std. Error & 325.029 (df = 48) \\ 
+		F Statistic & 26.341$^{***}$ (df = 1; 48) \\ 
+		\hline 
+		\hline \\[-2.8ex] 
+		\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+	\end{tabular} 
+\end{table} 
+\begin{verbatim} 
+The coefficient of X3 is 1.643 and has statistical significance (p-value<0.01), 
+indicating a positive correlation between X3 and X1; 
+The R-squared value is 0.354, 
+indicating that X3 can explain 35.4% of X1's variability. 
+This is a moderate value, 
+indicating that X3 has a certain explanatory power for X1
+\end{verbatim}
+ %X1与X3
+\vspace{10.5cm}
+\lstinputlisting[language=R, firstline=247, lastline=249]{my_answersRJ.C.R}
+\begin{enumerate}
+	\item[]
+	\includegraphics[width=.75\textwidth]{plot.X2.X3_RJ.C.pdf}
+\end{enumerate}
+	\begin{verbatim} 
+	The correlation between X2 and X3 is weak
+	the degree of urbanization has little to do with economic instability
+\end{verbatim}
+\lstinputlisting[language=R, firstline=258, lastline=258]{my_answersRJ.C.R}
+\begin{table}[!htbp] \centering 
+	\caption{} 
+	\label{} 
+	\begin{tabular}{@{\extracolsep{5pt}}lc} 
+		\\[-2.8ex]\hline 
+		\hline \\[-2.8ex] 
+		& \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+		\cline{2-2} 
+		\\[-2.8ex] & X2 \\ 
+		\hline \\[-2.8ex] 
+		X3 & 0.180$^{***}$ \\ 
+		& (0.115) \\ 
+		& \\ 
+		Constant & 180.609$^{***}$ \\ 
+		& (66.509) \\ 
+		& \\ 
+		\hline \\[-2.8ex] 
+		Observations & 50 \\ 
+		R$^{2}$ & 0.049 \\ 
+		Adjusted R$^{2}$ & 0.029 \\ 
+		Residual Std. Error & 116.465 (df = 48) \\ 
+		F Statistic & 2.465$^{***}$ (df = 1; 48) \\ 
+		\hline 
+		\hline \\[-2.8ex] 
+		\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+	\end{tabular} 
+\end{table} 
+\begin{verbatim} 
+The coefficient of X3 is 0.180, 
+but this coefficient is not statistically significant (p-value>0.1) 
+because there is no asterisk mark next to the coefficient, 
+which cannot prove a significant linear relationship between X3 and X2; 
+The R-squared value is 0.049, 
+indicating that X3 can explain 4.9% of X2 variability. 
+This is a very low value, 
+indicating a very weak relationship between X3 and X2, 
+suggesting that there are other important factors affecting X2
+\end{verbatim}
+ %X2与X3
+
+\vspace{11.5cm}
+
 \item
 Please plot the relationship between \emph{Y} and \emph{Region}? On average, which region has the highest per capita expenditure on housing assistance?
 
@@ -166,6 +460,11 @@ Please plot the relationship between \emph{Y} and \emph{X1}? Describe this graph
            	\item[]
          	\includegraphics[width=.85\textwidth]{plot.Y.X1_RJ.C.pdf}
            \end{enumerate} 
+       \begin{verbatim}
+      Y is strongly positively correlated with X1
+      as per capita income increases 
+      per capita housing expenditure will also increase
+          \end{verbatim}
 \lstinputlisting[language=R, firstline=155, lastline=155]{my_answersRJ.C.R}
        %  \begin{table}[htbp]
        %  	\centering
@@ -176,263 +475,36 @@ Please plot the relationship between \emph{Y} and \emph{X1}? Describe this graph
        	\caption{} 
        	\label{} 
        	\begin{tabular}{@{\extracolsep{5pt}}lc} 
-       		\\[-1.8ex]\hline 
+       		\\[-2.8ex]\hline 
        		\hline \\[-1.8ex] 
        		& \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
        		\cline{2-2} 
-       		\\[-1.8ex] & Y \\ 
-       		\hline \\[-1.8ex] 
+       		\\[-2.8ex] & Y \\ 
+       		\hline \\[-2.8ex] 
        		X1 & 0.025$^{***}$ \\ 
        		& (0.006) \\ 
        		& \\ 
        		Constant & 32.546$^{***}$ \\ 
        		& (11.034) \\ 
        		& \\ 
-       		\hline \\[-1.8ex] 
+       		\hline \\[-2.8ex] 
        		Observations & 50 \\ 
        		R$^{2}$ & 0.283 \\ 
        		Adjusted R$^{2}$ & 0.268 \\ 
        		Residual Std. Error & 15.836 (df = 48) \\ 
        		F Statistic & 18.920$^{***}$ (df = 1; 48) \\ 
        		\hline 
-       		\hline \\[-1.8ex] 
+       		\hline \\[-2.8ex] 
        		\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
        	\end{tabular} 
-       	 \begin{verbatim}
-      	Y is strongly positively correlated with X1
-    	as per capita income increases 
-    	per capita housing expenditure will also increase
-       	\end{verbatim}
        \end{table}  
+\vspace{10.5cm}
 \lstinputlisting[language=R, firstline=165, lastline=167]{my_answersRJ.C.R}
            \begin{enumerate}
          	\item[]
         	\includegraphics[width=.85\textwidth]{plot.symbols.colors_RJ.C.pdf}
            \end{enumerate} 
                % Complete the question about Y/X1
-\lstinputlisting[language=R, firstline=174, lastline=176]{my_answersRJ.C.R}
-        \begin{enumerate}
-    	 \item[]
-	     \includegraphics[width=.85\textwidth]{plot.Y.X2_RJ.C.pdf}
-        \end{enumerate}
-\lstinputlisting[language=R, firstline=185, lastline=185]{my_answersRJ.C.R}
-       \begin{table}[!htbp] \centering 
-	    \caption{} 
-	    \label{} 
-   	    \begin{tabular}{@{\extracolsep{5pt}}lc} 
-		    \\[-1.5ex]\hline 
-		    \hline \\[-1.5ex] 
-		    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
-		    \cline{2-2} 
-		    \\[-1.5ex] & Y \\ 
-		    \hline \\[-1.5ex] 
-		    X2 & 0.070$^{***}$ \\ 
-		    & (0.020) \\ 
-		    & \\ 
-		    Constant & 57.761$^{***}$ \\ 
-		    & (6.164) \\ 
-		    & \\ 
-		    \hline \\[-1.5ex] 
-		    Observations & 50 \\ 
-		    R$^{2}$ & 0.201 \\ 
-		    Adjusted R$^{2}$ & 0.184 \\ 
-		    Residual Std. Error & 16.714 (df = 48) \\ 
-		    F Statistic & 12.072$^{***}$ (df = 1; 48) \\ 
-		    \hline 
-		    \hline \\[-1.5ex] 
-		    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
-	     \end{tabular} 
-	     \begin{verbatim}
-	     	  Y is moderately positively correlated with X2,
-	  	indicating that in continents with unstable economic conditions,
-	  	the housing assistance rate is high
-	     \end{verbatim}
-       \end{table} 
-\lstinputlisting[language=R, firstline=195, lastline=197]{my_answersRJ.C.R}
-           \begin{enumerate}
-   	        \item[]
-	        \includegraphics[width=.85\textwidth]{plot.symbols.colors2_RJ.C.pdf}
-           \end{enumerate}
-            % Complete the question about Y/X2
-\lstinputlisting[language=R, firstline=204, lastline=206]{my_answersRJ.C.R}
-          \begin{enumerate}
-	       \item[]
-	       \includegraphics[width=.85\textwidth]{plot.Y.X3_RJ.C.pdf}
-          \end{enumerate}
-\lstinputlisting[language=R, firstline=185, lastline=185]{my_answersRJ.C.R}
-  \begin{table}[!htbp] \centering 
-	\caption{} 
-	\label{} 
-	\begin{tabular}{@{\extracolsep{5pt}}lc} 
-		\\[-1.8ex]\hline 
-		\hline \\[-1.8ex] 
-		& \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
-		\cline{2-2} 
-		\\[-1.8ex] & Y \\ 
-		\hline \\[-1.8ex] 
-		X3 & 0.059$^{***}$ \\ 
-		& (0.016) \\ 
-		& \\ 
-		Constant & 43.306$^{***}$ \\ 
-		& (9.461) \\ 
-		& \\ 
-		\hline \\[-1.8ex] 
-		Observations & 50 \\ 
-		R$^{2}$ & 0.215 \\ 
-		Adjusted R$^{2}$ & 0.199 \\ 
-		Residual Std. Error & 16.567 (df = 48) \\ 
-		F Statistic & 13.1146$^{***}$ (df = 1; 48) \\ 
-		\hline 
-		\hline \\[-1.8ex] 
-		\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
-	\end{tabular}
-	 \begin{verbatim} 
-   	Y is moderately positively correlated with X3
-	in areas with higher levels of urbanization
-	there is more expenditure on housing assistance
-	 \end{verbatim}
-  \end{table} 
-\lstinputlisting[language=R, firstline=225, lastline=227]{my_answersRJ.C.R}
-    \begin{enumerate}
-	  \item[]
-	  \includegraphics[width=.85\textwidth]{plot.symbols.colors3_RJ.C.pdf}
-    \end{enumerate}
-               % Complete the question about Y/X3
-
-\lstinputlisting[language=R, firstline=234, lastline=236]{my_answersRJ.C.R}
-    \begin{enumerate}
-  	  \item[]
-	  \includegraphics[width=.85\textwidth]{plot.X1.X2_RJ.C.pdf}
-    \end{enumerate}
-\lstinputlisting[language=R, firstline=245, lastline=245]{my_answersRJ.C.R}
-  \begin{table}[!htbp] \centering 
-	\caption{} 
-	\label{} 
-	\begin{tabular}{@{\extracolsep{5pt}}lc} 
-		\\[-1.8ex]\hline 
-		\hline \\[-1.8ex] 
-		& \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
-		\cline{2-2} 
-		\\[-1.8ex] & X1 \\ 
-		\hline \\[-1.8ex] 
-		X2 & 0.696$^{***}$ \\ 
-		& (0.478) \\ 
-		& \\ 
-		Constant & 1715.655$^{***}$ \\ 
-		& (145.981) \\ 
-		& \\ 
-		\hline \\[-1.8ex] 
-		Observations & 50 \\ 
-		R$^{2}$ & 0.042 \\ 
-		Adjusted R$^{2}$ & 0.022 \\ 
-		Residual Std. Error & 395.854 (df = 48) \\ 
-		F Statistic & 2.119$^{***}$ (df = 1; 48) \\ 
-		\hline 
-		\hline \\[-1.8ex] 
-		\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
-	\end{tabular} 
-	 \begin{verbatim} 
-		X1 is negatively correlated with X2,
-		indicating that areas with high per capita income 
-		have fewer economically unstable residents
-	\end{verbatim}
-  \end{table} 
-  
-\lstinputlisting[language=R, firstline=255, lastline=257]{my_answersRJ.C.R}
-  \begin{enumerate}
-	\item[]
-	\includegraphics[width=.85\textwidth]{plot.symbols.colors4_RJ.C.pdf}
-  \end{enumerate}
-                  % Complete the question about X1/X2
-
-\lstinputlisting[language=R, firstline=264, lastline=266]{my_answersRJ.C.R}
-  \begin{enumerate}
-	\item[]
-	\includegraphics[width=.85\textwidth]{plot.X1.X3_RJ.C.pdf}
-  \end{enumerate}
-\lstinputlisting[language=R, firstline=275, lastline=275]{my_answersRJ.C.R}
-  \begin{table}[!htbp] \centering 
-	\caption{} 
-	\label{} 
-	\begin{tabular}{@{\extracolsep{5pt}}lc} 
-		\\[-1.8ex]\hline 
-		\hline \\[-1.8ex] 
-		& \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
-		\cline{2-2} 
-		\\[-1.8ex] & X1 \\ 
-		\hline \\[-1.8ex] 
-		X3 & 1.643$^{***}$ \\ 
-		& (0.320) \\ 
-		& \\ 
-		Constant & 988.947$^{***}$ \\ 
-		& (185.614) \\ 
-		& \\ 
-		\hline \\[-1.8ex] 
-		Observations & 50 \\ 
-		R$^{2}$ & 0.354 \\ 
-		Adjusted R$^{2}$ & 0.341 \\ 
-		Residual Std. Error & 325.029 (df = 48) \\ 
-		F Statistic & 26.341$^{***}$ (df = 1; 48) \\ 
-		\hline 
-		\hline \\[-1.8ex] 
-		\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
-	\end{tabular} 
-	\begin{verbatim} 
-		X1 is positively correlated with X3,
-		indicating that areas with high urbanization
-		 have higher per capita income
-	\end{verbatim}
-  \end{table} 
-\lstinputlisting[language=R, firstline=285, lastline=287]{my_answersRJ.C.R}
-  \begin{enumerate}
-	\item[]
-	\includegraphics[width=.85\textwidth]{plot.symbols.colors5_RJ.C.pdf}
-  \end{enumerate}
-                % Complete the question about X1/X3
-                
-\lstinputlisting[language=R, firstline=294, lastline=296]{my_answersRJ.C.R}
-  \begin{enumerate}
-	\item[]
-	\includegraphics[width=.85\textwidth]{plot.X2.X3_RJ.C.pdf}
-  \end{enumerate}
-\lstinputlisting[language=R, firstline=305, lastline=305]{my_answersRJ.C.R}
-  \begin{table}[!htbp] \centering 
-	\caption{} 
-	\label{} 
-	\begin{tabular}{@{\extracolsep{5pt}}lc} 
-		\\[-1.8ex]\hline 
-		\hline \\[-1.8ex] 
-		& \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
-		\cline{2-2} 
-		\\[-1.8ex] & X2 \\ 
-		\hline \\[-1.8ex] 
-		X3 & 0.180$^{***}$ \\ 
-		& (0.115) \\ 
-		& \\ 
-		Constant & 180.609$^{***}$ \\ 
-		& (66.509) \\ 
-		& \\ 
-		\hline \\[-1.8ex] 
-		Observations & 50 \\ 
-		R$^{2}$ & 0.049 \\ 
-		Adjusted R$^{2}$ & 0.029 \\ 
-		Residual Std. Error & 116.465 (df = 48) \\ 
-		F Statistic & 2.465$^{***}$ (df = 1; 48) \\ 
-		\hline 
-		\hline \\[-1.8ex] 
-		\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
-	\end{tabular} 
-	\begin{verbatim} 
-	The correlation between X2 and X3 is weak
-	the degree of urbanization has little to do with economic instability
-	\end{verbatim}
-  \end{table}
-\lstinputlisting[language=R, firstline=315, lastline=317]{my_answersRJ.C.R}
-  \begin{enumerate}
-	\item[]
-	\includegraphics[width=.85\textwidth]{plot.symbols.colors6_RJ.C.pdf}
-  \end{enumerate}
-               % Complete the question about X2/X3
 
 \end{itemize}
 
