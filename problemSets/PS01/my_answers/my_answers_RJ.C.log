@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.10)  28 SEP 2024 20:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.10)  28 SEP 2024 21:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -932,163 +932,154 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
-(./my_answersRJ.C.R [1
+(./my_answersRJ.C.R) [1
 
 {d:/TEXlive/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{d:/TEXli
-ve/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]) (./my_a
-nswersRJ.C.R) [2] (./my_answers_RJ.C.R)
+ve/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./my_an
+swersRJ.C.R) [2] (./my_answers_RJ.C.R)
 (./my_answersRJ.C.R)
-<plot.all relationship_RJ.C.pdf, id=67, 515.9275pt x 311.1625pt>
+<plot.all relationship_RJ.C.pdf, id=62, 515.9275pt x 311.1625pt>
 File: plot.all relationship_RJ.C.pdf Graphic file (type pdf)
 <use plot.all relationship_RJ.C.pdf>
 Package pdftex.def Info: plot.all relationship_RJ.C.pdf  used on input line 128
 .
 (pdftex.def)             Requested size: 399.29463pt x 240.82558pt.
- [3]
-Overfull \hbox (22.7449pt too wide) in paragraph at lines 144--144
+ [3 <./plot.all relationship_RJ.C.pdf>] (./my_answersRJ.C.R)
+Overfull \hbox (22.7449pt too wide) in paragraph at lines 145--145
  []   \OT1/cmtt/m/n/12 STATE                 Y                X1             X2
               X3[] 
  []
 
 
-Overfull \hbox (59.79492pt too wide) in paragraph at lines 144--144
+Overfull \hbox (59.79492pt too wide) in paragraph at lines 145--145
  [] \OT1/cmtt/m/n/12 Length:50          Min.   : 42.00   Min.   :1053   Min.   
 :111.0   Min.   :326.0[] 
  []
 
 
-Overfull \hbox (59.79492pt too wide) in paragraph at lines 144--144
+Overfull \hbox (59.79492pt too wide) in paragraph at lines 145--145
  [] \OT1/cmtt/m/n/12 Class :character   1st Qu.: 67.25   1st Qu.:1698   1st Qu.
 :187.2   1st Qu.:426.2[] 
  []
 
 
-Overfull \hbox (59.79492pt too wide) in paragraph at lines 144--144
+Overfull \hbox (59.79492pt too wide) in paragraph at lines 145--145
  [] \OT1/cmtt/m/n/12 Mode  :character   Median : 79.00   Median :1897   Median 
 :241.5   Median :568.0[] 
  []
 
 
-Overfull \hbox (59.79492pt too wide) in paragraph at lines 144--144
+Overfull \hbox (59.79492pt too wide) in paragraph at lines 145--145
  []                    \OT1/cmtt/m/n/12 Mean   : 79.54   Mean   :1912   Mean   
 :281.8   Mean   :561.7[] 
  []
 
 
-Overfull \hbox (59.79492pt too wide) in paragraph at lines 144--144
+Overfull \hbox (59.79492pt too wide) in paragraph at lines 145--145
  []                    \OT1/cmtt/m/n/12 3rd Qu.: 90.00   3rd Qu.:2096   3rd Qu.
 :391.8   3rd Qu.:661.2[] 
  []
 
 
-Overfull \hbox (59.79492pt too wide) in paragraph at lines 144--144
+Overfull \hbox (59.79492pt too wide) in paragraph at lines 145--145
  []                    \OT1/cmtt/m/n/12 Max.   :129.00   Max.   :2817   Max.   
 :531.0   Max.   :899.0[] 
  []
 
-(./my_answersRJ.C.R [4 <./plot.all relationship_RJ.C.pdf>])
-<plot.Y.Region_RJ.C.pdf, id=99, 515.9275pt x 311.1625pt>
+(./my_answersRJ.C.R)
+<plot.Y.Region_RJ.C.pdf, id=76, 515.9275pt x 311.1625pt>
 File: plot.Y.Region_RJ.C.pdf Graphic file (type pdf)
 <use plot.Y.Region_RJ.C.pdf>
-Package pdftex.def Info: plot.Y.Region_RJ.C.pdf  used on input line 152.
+Package pdftex.def Info: plot.Y.Region_RJ.C.pdf  used on input line 153.
 (pdftex.def)             Requested size: 399.29463pt x 240.82558pt.
- (./my_answersRJ.C.R) (./my_answersRJ.C.R [5 <./plot.Y.Region_RJ.C.pdf>])
-<plot.Y.X1_RJ.C.pdf, id=124, 515.9275pt x 311.1625pt>
+ (./my_answersRJ.C.R) [4 <./plot.Y.Region_RJ.C.pdf>]
+(./my_answersRJ.C.R)
+<plot.Y.X1_RJ.C.pdf, id=92, 515.9275pt x 311.1625pt>
 File: plot.Y.X1_RJ.C.pdf Graphic file (type pdf)
 <use plot.Y.X1_RJ.C.pdf>
-Package pdftex.def Info: plot.Y.X1_RJ.C.pdf  used on input line 166.
+Package pdftex.def Info: plot.Y.X1_RJ.C.pdf  used on input line 167.
 (pdftex.def)             Requested size: 399.29463pt x 240.82558pt.
- (./my_answersRJ.C.R
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
-51.
-
-(d:/TEXlive/texlive/2024/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 151.
-)
-(./my_answersRJ.C.R [6 <./plot.Y.X1_RJ.C.pdf>] [7])
-<plot.symbols.colors_RJ.C.pdf, id=168, 515.9275pt x 311.1625pt>
+ (./my_answersRJ.C.R) (./my_answersRJ.C.R)
+<plot.symbols.colors_RJ.C.pdf, id=93, 515.9275pt x 311.1625pt>
 File: plot.symbols.colors_RJ.C.pdf Graphic file (type pdf)
 <use plot.symbols.colors_RJ.C.pdf>
-Package pdftex.def Info: plot.symbols.colors_RJ.C.pdf  used on input line 209.
+Package pdftex.def Info: plot.symbols.colors_RJ.C.pdf  used on input line 210.
 (pdftex.def)             Requested size: 399.29463pt x 240.82558pt.
- (./my_answersRJ.C.R)
-<plot.Y.X2_RJ.C.pdf, id=169, 515.9275pt x 311.1625pt>
+ [5 <./plot.Y.X1_RJ.C.pdf>] [6] (./my_answersRJ.C.R)
+<plot.Y.X2_RJ.C.pdf, id=123, 515.9275pt x 311.1625pt>
 File: plot.Y.X2_RJ.C.pdf Graphic file (type pdf)
 <use plot.Y.X2_RJ.C.pdf>
 Package pdftex.def Info: plot.Y.X2_RJ.C.pdf  used on input line 216.
 (pdftex.def)             Requested size: 399.29463pt x 240.82558pt.
-
-[8 <./plot.symbols.colors_RJ.C.pdf>] (./my_answersRJ.C.R) (./my_answersRJ.C.R)
-<plot.symbols.colors2_RJ.C.pdf, id=192, 515.9275pt x 311.1625pt>
+ (./my_answersRJ.C.R) (./my_answersRJ.C.R)
+[7 <./plot.symbols.colors_RJ.C.pdf> <./plot.Y.X2_RJ.C.pdf>] [8]
+<plot.symbols.colors2_RJ.C.pdf, id=151, 515.9275pt x 311.1625pt>
 File: plot.symbols.colors2_RJ.C.pdf Graphic file (type pdf)
 <use plot.symbols.colors2_RJ.C.pdf>
-Package pdftex.def Info: plot.symbols.colors2_RJ.C.pdf  used on input line 255.
+Package pdftex.def Info: plot.symbols.colors2_RJ.C.pdf  used on input line 254.
 
 (pdftex.def)             Requested size: 399.29463pt x 240.82558pt.
 
-[9 <./plot.Y.X2_RJ.C.pdf>] [10] (./my_answersRJ.C.R)
-<plot.Y.X3_RJ.C.pdf, id=230, 515.9275pt x 311.1625pt>
+(./my_answersRJ.C.R)
+<plot.Y.X3_RJ.C.pdf, id=152, 515.9275pt x 311.1625pt>
 File: plot.Y.X3_RJ.C.pdf Graphic file (type pdf)
 <use plot.Y.X3_RJ.C.pdf>
-Package pdftex.def Info: plot.Y.X3_RJ.C.pdf  used on input line 262.
+Package pdftex.def Info: plot.Y.X3_RJ.C.pdf  used on input line 260.
 (pdftex.def)             Requested size: 399.29463pt x 240.82558pt.
- [11 <./plot.symbols.colors2_RJ.C.pdf>] (./my_answersRJ.C.R) (./my_answersRJ.C.
-R)
-<plot.symbols.colors3_RJ.C.pdf, id=250, 515.9275pt x 311.1625pt>
+ (./my_answersRJ.C.R) [9 <./plot.symbols.colors2_RJ.C.pdf> <./plot.Y.X3_RJ.C.pd
+f>] (./my_answersRJ.C.R)
+<plot.symbols.colors3_RJ.C.pdf, id=175, 515.9275pt x 311.1625pt>
 File: plot.symbols.colors3_RJ.C.pdf Graphic file (type pdf)
 <use plot.symbols.colors3_RJ.C.pdf>
-Package pdftex.def Info: plot.symbols.colors3_RJ.C.pdf  used on input line 300.
+Package pdftex.def Info: plot.symbols.colors3_RJ.C.pdf  used on input line 298.
 
 (pdftex.def)             Requested size: 399.29463pt x 240.82558pt.
- [12 <./plot.Y.X3_RJ.C.pdf>] [13] (./my_answersRJ.C.R)
-<plot.X1.X2_RJ.C.pdf, id=289, 515.9275pt x 311.1625pt>
+ [10] (./my_answersRJ.C.R)
+<plot.X1.X2_RJ.C.pdf, id=187, 515.9275pt x 311.1625pt>
 File: plot.X1.X2_RJ.C.pdf Graphic file (type pdf)
 <use plot.X1.X2_RJ.C.pdf>
-Package pdftex.def Info: plot.X1.X2_RJ.C.pdf  used on input line 307.
+Package pdftex.def Info: plot.X1.X2_RJ.C.pdf  used on input line 305.
 (pdftex.def)             Requested size: 399.29463pt x 240.82558pt.
- [14 <./plot.symbols.colors3_RJ.C.pdf>]
-(./my_answersRJ.C.R) (./my_answersRJ.C.R)
-<plot.symbols.colors4_RJ.C.pdf, id=308, 515.9275pt x 311.1625pt>
+
+(./my_answersRJ.C.R) (./my_answersRJ.C.R) [11 <./plot.symbols.colors3_RJ.C.pdf>
+ <./plot.X1.X2_RJ.C.pdf>] [12]
+<plot.symbols.colors4_RJ.C.pdf, id=213, 515.9275pt x 311.1625pt>
 File: plot.symbols.colors4_RJ.C.pdf Graphic file (type pdf)
 <use plot.symbols.colors4_RJ.C.pdf>
-Package pdftex.def Info: plot.symbols.colors4_RJ.C.pdf  used on input line 345.
+Package pdftex.def Info: plot.symbols.colors4_RJ.C.pdf  used on input line 344.
 
 (pdftex.def)             Requested size: 399.29463pt x 240.82558pt.
- [15 <./plot.X1.X2_RJ.C.pdf>] [16]
-(./my_answersRJ.C.R)
-<plot.X1.X3_RJ.C.pdf, id=346, 515.9275pt x 311.1625pt>
+ (./my_answersRJ.C.R)
+<plot.X1.X3_RJ.C.pdf, id=214, 515.9275pt x 311.1625pt>
 File: plot.X1.X3_RJ.C.pdf Graphic file (type pdf)
 <use plot.X1.X3_RJ.C.pdf>
-Package pdftex.def Info: plot.X1.X3_RJ.C.pdf  used on input line 352.
+Package pdftex.def Info: plot.X1.X3_RJ.C.pdf  used on input line 351.
 (pdftex.def)             Requested size: 399.29463pt x 240.82558pt.
- [17 <./plot.symbols.colors4_RJ.C.pdf>] (./my_answersRJ.C.R) (./my_answersRJ.C.
-R)
-<plot.symbols.colors5_RJ.C.pdf, id=366, 515.9275pt x 311.1625pt>
+ (./my_answersRJ.C.R)
+[13 <./plot.symbols.colors4_RJ.C.pdf> <./plot.X1.X3_RJ.C.pdf>]
+(./my_answersRJ.C.R)
+<plot.symbols.colors5_RJ.C.pdf, id=238, 515.9275pt x 311.1625pt>
 File: plot.symbols.colors5_RJ.C.pdf Graphic file (type pdf)
 <use plot.symbols.colors5_RJ.C.pdf>
-Package pdftex.def Info: plot.symbols.colors5_RJ.C.pdf  used on input line 390.
+Package pdftex.def Info: plot.symbols.colors5_RJ.C.pdf  used on input line 389.
 
 (pdftex.def)             Requested size: 399.29463pt x 240.82558pt.
- [18 <./plot.X1.X3_RJ.C.pdf>] [19] (./my_answersRJ.C.R)
-<plot.X2.X3_RJ.C.pdf, id=405, 515.9275pt x 311.1625pt>
+ [14] (./my_answersRJ.C.R)
+<plot.X2.X3_RJ.C.pdf, id=250, 515.9275pt x 311.1625pt>
 File: plot.X2.X3_RJ.C.pdf Graphic file (type pdf)
 <use plot.X2.X3_RJ.C.pdf>
-Package pdftex.def Info: plot.X2.X3_RJ.C.pdf  used on input line 397.
+Package pdftex.def Info: plot.X2.X3_RJ.C.pdf  used on input line 396.
 (pdftex.def)             Requested size: 399.29463pt x 240.82558pt.
-
-[20 <./plot.symbols.colors5_RJ.C.pdf>] (./my_answersRJ.C.R) (./my_answersRJ.C.R
-)
-<plot.symbols.colors6_RJ.C.pdf, id=424, 515.9275pt x 311.1625pt>
+ (./my_answersRJ.C.R)
+(./my_answersRJ.C.R) [15 <./plot.symbols.colors5_RJ.C.pdf> <./plot.X2.X3_RJ.C.p
+df>] [16]
+<plot.symbols.colors6_RJ.C.pdf, id=277, 515.9275pt x 311.1625pt>
 File: plot.symbols.colors6_RJ.C.pdf Graphic file (type pdf)
 <use plot.symbols.colors6_RJ.C.pdf>
-Package pdftex.def Info: plot.symbols.colors6_RJ.C.pdf  used on input line 434.
+Package pdftex.def Info: plot.symbols.colors6_RJ.C.pdf  used on input line 433.
 
 (pdftex.def)             Requested size: 399.29463pt x 240.82558pt.
- [21 <./plot.X2.X3_RJ.C.pdf>] [22] [23 <./plot.symbols.colors6_RJ.C.pdf>]
-(./my_answers_RJ.C.aux)
+ [17 <./plot.symbols.colors6_RJ.C.pdf>] (./my_answers_RJ.C.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1101,13 +1092,13 @@ Package rerunfilecheck Info: File `my_answers_RJ.C.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27653 strings out of 474116
- 482311 string characters out of 5743693
- 2254190 words of memory out of 5000000
- 49190 multiletter control sequences out of 15000+600000
+ 27448 strings out of 474116
+ 479372 string characters out of 5743693
+ 2200190 words of memory out of 5000000
+ 49145 multiletter control sequences out of 15000+600000
  568855 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,10n,93p,3247b,2142s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,10n,93p,3247b,2154s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <d:/TEXlive/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ><d:/TEXlive/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 <d:/TEXlive/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
@@ -1116,16 +1107,15 @@ d:/TEXlive/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:
 EXlive/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/TEX
 live/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/TEXliv
 e/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/TEXlive/t
-exlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/TEXlive/te
-xlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/TEXlive/texl
-ive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><d:/TEXlive/texli
-ve/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><d:/TEXlive/texliv
-e/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><d:/TEXlive/texlive/
-2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on my_answers_RJ.C.pdf (23 pages, 342265 bytes).
+exlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/TEXlive/tex
+live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><d:/TEXlive/texl
+ive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><d:/TEXlive/texli
+ve/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><d:/TEXlive/texlive
+/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on my_answers_RJ.C.pdf (17 pages, 303016 bytes).
 PDF statistics:
- 595 PDF objects out of 1000 (max. 8388607)
- 508 compressed objects within 6 object streams
- 291 named destinations out of 1000 (max. 500000)
+ 375 PDF objects out of 1000 (max. 8388607)
+ 299 compressed objects within 3 object streams
+ 132 named destinations out of 1000 (max. 500000)
  83 words of extra memory for PDF output out of 10000 (max. 10000000)
 

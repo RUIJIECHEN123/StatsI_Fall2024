@@ -42,7 +42,7 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 y <- c(105, 69, 86, 100, 82, 111, 104, 110, 87, 108, 87, 90, 94, 113, 112, 98, 80, 97, 95, 111, 114, 89, 95, 126, 98)
 # capture the number of observations
 n <- length(y)
-# (a) Calculate the 90% confidence interval for the student IQ
+# Calculate the 90% confidence interval for the student IQ
 # Step 1: get t-score
 t <- qt(0.05, n-1, lower.tail = F)
 # Step 2: Calculate lower and upper parts for the 90%
@@ -52,9 +52,9 @@ upper_CI <- mean(y)+(t*(sd(y)/sqrt(n)))
 c(lower_CI, mean(y), upper_CI) #Confidence interval (93.95993 102.92007) mean value(98.44000)
 # double check our answer  
 t.test(y, conf.level = 0.9)$"conf.int" #Use the t.test() function to directly calculate the 90% confidence interval and extract the confidence interval
-# (b) Step 1: Calculate the standard error
+# Calculate the standard error
 SE <- sd(y)/sqrt(n)
-# Step 2: Calculate the test statistic for this hypothesis testing of mean
+# Calculate the test statistic for this hypothesis testing of mean
 t <- (mean(y) - 100)/SE
 # Get the p-value from t-distribution
 pvalue <- pt(t, n-1, lower.tail = F)
@@ -113,7 +113,7 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 #         stop("Failed to download the file: HTTP status ", response$status_code)
 # }
 expenditure <- read.table("https://raw.githubusercontent.com/ASDS-TCD/StatsI_Fall2024/main/datasets/expenditure.txt", header=T) 
-pairs(expenditure[, c("Y", "X1", "X2", "X3")], main = "Scatterplot Matrix", pch = 19) #Draw a scatter plot matrix of Y with X1, X2, X3
+pairs(expenditure[, c("Y", "X1", "X2", "X3")]) #Draw a scatter plot of Y with X1, X2, X3
 RJ.C <- cor(expenditure[, c("Y", "X1", "X2", "X3")]) #Calculate correlation
 print(RJ.C) 
 summary(expenditure) #Output the statistical results as a text file

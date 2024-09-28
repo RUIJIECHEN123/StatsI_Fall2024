@@ -87,7 +87,7 @@ A school counselor was curious about the average of IQ of the students in her sc
 
 \begin{enumerate}
 	\item Find a 90\% confidence interval for the average student IQ in the school.\\
-	\lstinputlisting[language=R, firstline=42, lastline=54]{my_answersRJ.C.R}
+	\lstinputlisting[language=R, firstline=47, lastline=54]{my_answersRJ.C.R}
 	
 	\item Next, the school counselor was curious  whether  the average student IQ in her school is higher than the average IQ score (100) among all the schools in the country.\\ 
 	\noindent Using the same sample, conduct the appropriate hypothesis test with $\alpha=0.05$.
@@ -122,7 +122,7 @@ A school counselor was curious about the average of IQ of the students in her sc
 \item
 Please plot the relationships among \emph{Y}, \emph{X1}, \emph{X2}, and \emph{X3}? What are the correlations among them (you just need to describe the graph and the relationships among them)?
 
-\lstinputlisting[language=R, firstline=115, lastline=122]{my_answersRJ.C.R}
+\lstinputlisting[language=R, firstline=116, lastline=116]{my_answersRJ.C.R}
     \begin{enumerate}
 	\item[]
 	\includegraphics[width=.85\textwidth]{plot.all relationship_RJ.C.pdf}
@@ -133,6 +133,7 @@ Please plot the relationships among \emph{Y}, \emph{X1}, \emph{X2}, and \emph{X3
    	X1 is positively correlated with X3
    	The relationship between X2 and X3 is weak
    \end{verbatim}
+\lstinputlisting[language=R, firstline=119, lastline=119]{my_answersRJ.C.R}
 	\begin{verbatim}
 	  STATE                 Y                X1             X2              X3       
 	Length:50          Min.   : 42.00   Min.   :1053   Min.   :111.0   Min.   :326.0  
@@ -146,26 +147,26 @@ Please plot the relationships among \emph{Y}, \emph{X1}, \emph{X2}, and \emph{X3
 \item
 Please plot the relationship between \emph{Y} and \emph{Region}? On average, which region has the highest per capita expenditure on housing assistance?
 
-\lstinputlisting[language=R, firstline=123, lastline=135]{my_answersRJ.C.R}
+\lstinputlisting[language=R, firstline=133, lastline=135]{my_answersRJ.C.R}
    \begin{enumerate}
    	\item[]
   	\includegraphics[width=.85\textwidth]{plot.Y.Region_RJ.C.pdf}
    \end{enumerate}
-\lstinputlisting[language=R, firstline=136, lastline=139]{my_answersRJ.C.R}
+\lstinputlisting[language=R, firstline=137, lastline=138]{my_answersRJ.C.R}
     \begin{verbatim}
     	                  Region        Y
-    	                    4       4 88.30769
+    	                    4        88.30769
     \end{verbatim} 
 \vspace{.5cm}
 \item
 Please plot the relationship between \emph{Y} and \emph{X1}? Describe this graph and the relationship. Reproduce the above graph including one more variable \emph{Region} and display different regions with different types of symbols and colors.
 
-\lstinputlisting[language=R, firstline=140, lastline=147]{my_answersRJ.C.R}
+\lstinputlisting[language=R, firstline=145, lastline=147]{my_answersRJ.C.R}
            \begin{enumerate}
            	\item[]
          	\includegraphics[width=.85\textwidth]{plot.Y.X1_RJ.C.pdf}
            \end{enumerate} 
-\lstinputlisting[language=R, firstline=148, lastline=155]{my_answersRJ.C.R}
+\lstinputlisting[language=R, firstline=155, lastline=155]{my_answersRJ.C.R}
        %  \begin{table}[htbp]
        %  	\centering
        %  	\input{regression_output_RJ.C.tex}
@@ -203,65 +204,62 @@ Please plot the relationship between \emph{Y} and \emph{X1}? Describe this graph
     	per capita housing expenditure will also increase
        	\end{verbatim}
        \end{table}  
-\lstinputlisting[language=R, firstline=156, lastline=167]{my_answersRJ.C.R}
+\lstinputlisting[language=R, firstline=165, lastline=167]{my_answersRJ.C.R}
            \begin{enumerate}
          	\item[]
         	\includegraphics[width=.85\textwidth]{plot.symbols.colors_RJ.C.pdf}
            \end{enumerate} 
                % Complete the question about Y/X1
-           
-\lstinputlisting[language=R, firstline=169, lastline=176]{my_answersRJ.C.R}
+\lstinputlisting[language=R, firstline=174, lastline=176]{my_answersRJ.C.R}
         \begin{enumerate}
     	 \item[]
 	     \includegraphics[width=.85\textwidth]{plot.Y.X2_RJ.C.pdf}
         \end{enumerate}
-\lstinputlisting[language=R, firstline=177, lastline=185]{my_answersRJ.C.R}
+\lstinputlisting[language=R, firstline=185, lastline=185]{my_answersRJ.C.R}
        \begin{table}[!htbp] \centering 
 	    \caption{} 
 	    \label{} 
    	    \begin{tabular}{@{\extracolsep{5pt}}lc} 
-		    \\[-1.8ex]\hline 
-		    \hline \\[-1.8ex] 
+		    \\[-1.5ex]\hline 
+		    \hline \\[-1.5ex] 
 		    & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
 		    \cline{2-2} 
-		    \\[-1.8ex] & Y \\ 
-		    \hline \\[-1.8ex] 
+		    \\[-1.5ex] & Y \\ 
+		    \hline \\[-1.5ex] 
 		    X2 & 0.070$^{***}$ \\ 
 		    & (0.020) \\ 
 		    & \\ 
 		    Constant & 57.761$^{***}$ \\ 
 		    & (6.164) \\ 
 		    & \\ 
-		    \hline \\[-1.8ex] 
+		    \hline \\[-1.5ex] 
 		    Observations & 50 \\ 
 		    R$^{2}$ & 0.201 \\ 
 		    Adjusted R$^{2}$ & 0.184 \\ 
 		    Residual Std. Error & 16.714 (df = 48) \\ 
 		    F Statistic & 12.072$^{***}$ (df = 1; 48) \\ 
 		    \hline 
-		    \hline \\[-1.8ex] 
+		    \hline \\[-1.5ex] 
 		    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
 	     \end{tabular} 
-	    
 	     \begin{verbatim}
 	     	  Y is moderately positively correlated with X2,
 	  	indicating that in continents with unstable economic conditions,
 	  	the housing assistance rate is high
 	     \end{verbatim}
        \end{table} 
-\lstinputlisting[language=R, firstline=186, lastline=197]{my_answersRJ.C.R}
+\lstinputlisting[language=R, firstline=195, lastline=197]{my_answersRJ.C.R}
            \begin{enumerate}
    	        \item[]
 	        \includegraphics[width=.85\textwidth]{plot.symbols.colors2_RJ.C.pdf}
            \end{enumerate}
             % Complete the question about Y/X2
-            
-\lstinputlisting[language=R, firstline=199, lastline=206]{my_answersRJ.C.R}
+\lstinputlisting[language=R, firstline=204, lastline=206]{my_answersRJ.C.R}
           \begin{enumerate}
 	       \item[]
 	       \includegraphics[width=.85\textwidth]{plot.Y.X3_RJ.C.pdf}
           \end{enumerate}
-\lstinputlisting[language=R, firstline=177, lastline=185]{my_answersRJ.C.R}
+\lstinputlisting[language=R, firstline=185, lastline=185]{my_answersRJ.C.R}
   \begin{table}[!htbp] \centering 
 	\caption{} 
 	\label{} 
@@ -294,19 +292,19 @@ Please plot the relationship between \emph{Y} and \emph{X1}? Describe this graph
 	there is more expenditure on housing assistance
 	 \end{verbatim}
   \end{table} 
-\lstinputlisting[language=R, firstline=216, lastline=227]{my_answersRJ.C.R}
+\lstinputlisting[language=R, firstline=225, lastline=227]{my_answersRJ.C.R}
     \begin{enumerate}
 	  \item[]
 	  \includegraphics[width=.85\textwidth]{plot.symbols.colors3_RJ.C.pdf}
     \end{enumerate}
                % Complete the question about Y/X3
 
-\lstinputlisting[language=R, firstline=229, lastline=236]{my_answersRJ.C.R}
+\lstinputlisting[language=R, firstline=234, lastline=236]{my_answersRJ.C.R}
     \begin{enumerate}
   	  \item[]
 	  \includegraphics[width=.85\textwidth]{plot.X1.X2_RJ.C.pdf}
     \end{enumerate}
-\lstinputlisting[language=R, firstline=237, lastline=245]{my_answersRJ.C.R}
+\lstinputlisting[language=R, firstline=245, lastline=245]{my_answersRJ.C.R}
   \begin{table}[!htbp] \centering 
 	\caption{} 
 	\label{} 
@@ -339,19 +337,20 @@ Please plot the relationship between \emph{Y} and \emph{X1}? Describe this graph
 		have fewer economically unstable residents
 	\end{verbatim}
   \end{table} 
-\lstinputlisting[language=R, firstline=246, lastline=257]{my_answersRJ.C.R}
+  
+\lstinputlisting[language=R, firstline=255, lastline=257]{my_answersRJ.C.R}
   \begin{enumerate}
 	\item[]
 	\includegraphics[width=.85\textwidth]{plot.symbols.colors4_RJ.C.pdf}
   \end{enumerate}
                   % Complete the question about X1/X2
 
-\lstinputlisting[language=R, firstline=259, lastline=266]{my_answersRJ.C.R}
+\lstinputlisting[language=R, firstline=264, lastline=266]{my_answersRJ.C.R}
   \begin{enumerate}
 	\item[]
 	\includegraphics[width=.85\textwidth]{plot.X1.X3_RJ.C.pdf}
   \end{enumerate}
-\lstinputlisting[language=R, firstline=267, lastline=275]{my_answersRJ.C.R}
+\lstinputlisting[language=R, firstline=275, lastline=275]{my_answersRJ.C.R}
   \begin{table}[!htbp] \centering 
 	\caption{} 
 	\label{} 
@@ -384,19 +383,19 @@ Please plot the relationship between \emph{Y} and \emph{X1}? Describe this graph
 		 have higher per capita income
 	\end{verbatim}
   \end{table} 
-\lstinputlisting[language=R, firstline=276, lastline=287]{my_answersRJ.C.R}
+\lstinputlisting[language=R, firstline=285, lastline=287]{my_answersRJ.C.R}
   \begin{enumerate}
 	\item[]
 	\includegraphics[width=.85\textwidth]{plot.symbols.colors5_RJ.C.pdf}
   \end{enumerate}
                 % Complete the question about X1/X3
                 
-\lstinputlisting[language=R, firstline=289, lastline=296]{my_answersRJ.C.R}
+\lstinputlisting[language=R, firstline=294, lastline=296]{my_answersRJ.C.R}
   \begin{enumerate}
 	\item[]
 	\includegraphics[width=.85\textwidth]{plot.X2.X3_RJ.C.pdf}
   \end{enumerate}
-\lstinputlisting[language=R, firstline=297, lastline=305]{my_answersRJ.C.R}
+\lstinputlisting[language=R, firstline=305, lastline=305]{my_answersRJ.C.R}
   \begin{table}[!htbp] \centering 
 	\caption{} 
 	\label{} 
@@ -428,7 +427,7 @@ Please plot the relationship between \emph{Y} and \emph{X1}? Describe this graph
 	the degree of urbanization has little to do with economic instability
 	\end{verbatim}
   \end{table}
-\lstinputlisting[language=R, firstline=306, lastline=317]{my_answersRJ.C.R}
+\lstinputlisting[language=R, firstline=315, lastline=317]{my_answersRJ.C.R}
   \begin{enumerate}
 	\item[]
 	\includegraphics[width=.85\textwidth]{plot.symbols.colors6_RJ.C.pdf}

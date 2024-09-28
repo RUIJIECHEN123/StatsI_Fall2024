@@ -1,0 +1,14 @@
+    STATE                 Y                X1             X2              X3       
+ Length:50          Min.   : 42.00   Min.   :1053   Min.   :111.0   Min.   :326.0  
+ Class :character   1st Qu.: 67.25   1st Qu.:1698   1st Qu.:187.2   1st Qu.:426.2  
+ Mode  :character   Median : 79.00   Median :1897   Median :241.5   Median :568.0  
+                    Mean   : 79.54   Mean   :1912   Mean   :281.8   Mean   :561.7  
+                    3rd Qu.: 90.00   3rd Qu.:2096   3rd Qu.:391.8   3rd Qu.:661.2  
+                    Max.   :129.00   Max.   :2817   Max.   :531.0   Max.   :899.0  
+     Region    
+ Min.   :1.00  
+ 1st Qu.:2.00  
+ Median :3.00  
+ Mean   :2.66  
+ 3rd Qu.:3.75  
+ Max.   :4.00  
