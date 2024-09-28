@@ -122,7 +122,17 @@ A school counselor was curious about the average of IQ of the students in her sc
 \item
 Please plot the relationships among \emph{Y}, \emph{X1}, \emph{X2}, and \emph{X3}? What are the correlations among them (you just need to describe the graph and the relationships among them)?
 
-\lstinputlisting[language=R, firstline=102, lastline=122]{my_answersRJ.C.R}
+\lstinputlisting[language=R, firstline=115, lastline=122]{my_answersRJ.C.R}
+    \begin{enumerate}
+	\item[]
+	\includegraphics[width=.85\textwidth]{plot.all relationship_RJ.C.pdf}
+   \end{enumerate}
+   \begin{verbatim}
+   	Y is positively correlated with X1, X2, X3
+   	X1 is negatively correlated with X2
+   	X1 is positively correlated with X3
+   	The relationship between X2 and X3 is weak
+   \end{verbatim}
 	\begin{verbatim}
 	  STATE                 Y                X1             X2              X3       
 	Length:50          Min.   : 42.00   Min.   :1053   Min.   :111.0   Min.   :326.0  
@@ -187,6 +197,11 @@ Please plot the relationship between \emph{Y} and \emph{X1}? Describe this graph
        		\hline \\[-1.8ex] 
        		\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
        	\end{tabular} 
+       	 \begin{verbatim}
+      	Y is strongly positively correlated with X1
+    	as per capita income increases 
+    	per capita housing expenditure will also increase
+       	\end{verbatim}
        \end{table}  
 \lstinputlisting[language=R, firstline=156, lastline=167]{my_answersRJ.C.R}
            \begin{enumerate}
@@ -227,6 +242,12 @@ Please plot the relationship between \emph{Y} and \emph{X1}? Describe this graph
 		    \hline \\[-1.8ex] 
 		    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
 	     \end{tabular} 
+	    
+	     \begin{verbatim}
+	     	  Y is moderately positively correlated with X2,
+	  	indicating that in continents with unstable economic conditions,
+	  	the housing assistance rate is high
+	     \end{verbatim}
        \end{table} 
 \lstinputlisting[language=R, firstline=186, lastline=197]{my_answersRJ.C.R}
            \begin{enumerate}
@@ -266,7 +287,12 @@ Please plot the relationship between \emph{Y} and \emph{X1}? Describe this graph
 		\hline 
 		\hline \\[-1.8ex] 
 		\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
-	\end{tabular} 
+	\end{tabular}
+	 \begin{verbatim} 
+   	Y is moderately positively correlated with X3
+	in areas with higher levels of urbanization
+	there is more expenditure on housing assistance
+	 \end{verbatim}
   \end{table} 
 \lstinputlisting[language=R, firstline=216, lastline=227]{my_answersRJ.C.R}
     \begin{enumerate}
@@ -307,6 +333,11 @@ Please plot the relationship between \emph{Y} and \emph{X1}? Describe this graph
 		\hline \\[-1.8ex] 
 		\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
 	\end{tabular} 
+	 \begin{verbatim} 
+		X1 is negatively correlated with X2,
+		indicating that areas with high per capita income 
+		have fewer economically unstable residents
+	\end{verbatim}
   \end{table} 
 \lstinputlisting[language=R, firstline=246, lastline=257]{my_answersRJ.C.R}
   \begin{enumerate}
@@ -347,6 +378,11 @@ Please plot the relationship between \emph{Y} and \emph{X1}? Describe this graph
 		\hline \\[-1.8ex] 
 		\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
 	\end{tabular} 
+	\begin{verbatim} 
+		X1 is positively correlated with X3,
+		indicating that areas with high urbanization
+		 have higher per capita income
+	\end{verbatim}
   \end{table} 
 \lstinputlisting[language=R, firstline=276, lastline=287]{my_answersRJ.C.R}
   \begin{enumerate}
@@ -387,6 +423,10 @@ Please plot the relationship between \emph{Y} and \emph{X1}? Describe this graph
 		\hline \\[-1.8ex] 
 		\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
 	\end{tabular} 
+	\begin{verbatim} 
+	The correlation between X2 and X3 is weak
+	the degree of urbanization has little to do with economic instability
+	\end{verbatim}
   \end{table}
 \lstinputlisting[language=R, firstline=306, lastline=317]{my_answersRJ.C.R}
   \begin{enumerate}
